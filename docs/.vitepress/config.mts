@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
-import timeline from "vitepress-markdown-timeline"; 
+import timeline from "vitepress-markdown-timeline";
+import './style/index.css';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: '517Group', //站点标题
