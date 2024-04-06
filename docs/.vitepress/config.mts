@@ -16,7 +16,7 @@ export default defineConfig({
     {
         nav:
         [
-            {text: '517Group-luogu',link:"https://www.luogu.com.cn/team/61713"},
+            {text: 'Ex517',link:"https://517group.cn"},
             {
                 text: '历代皇帝',
                 items:

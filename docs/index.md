@@ -9,13 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 元安大典
-      link: /Qin-Timeline
+      link: /start
     - theme: alt
-      text: 517Group主团
+      text: 517Group - 洛谷
       link: https://www.luogu.com.cn/team/61713
-    - theme: none
-      text: Ex517
-      link: /ex517
 
 features:
   - title: 权力更迭
