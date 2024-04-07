@@ -9,6 +9,7 @@
   transition: transform 0.3s ease;
   background-size: cover;
   background-position: center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 33%);
 }
 
 .card:hover
@@ -37,7 +38,7 @@
 .card .title
 {
   position: absolute;
-  top: 25px;
+  top: 40px;
   left: 100px;
   font-size: 20px;
   font-weight: bold;
