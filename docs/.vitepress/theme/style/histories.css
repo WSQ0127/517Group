@@ -4,19 +4,20 @@
   height: 250px; /* 将卡片调整为稍大一点 */
   overflow: hidden;
   border-radius: 15px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease;
   background-size: cover;
   background-position: center;
 }
 
 .card:hover {
+  box-shadow: 5px 18px 16px rgba(0, 0, 0, 0.2);
   transform: translateY(-10px);
 }
 
 .card img {
-  width: 80px; /* 头像宽度 */
-  height: 80px; /* 头像高度 */
+  width: 60px; /* 头像宽度 */
+  height: 60px; /* 头像高度 */
   border-radius: 50%; /* 头像圆角 */
   position: absolute;
   top: 20px;
@@ -63,8 +64,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
-  text-align: center;
   z-index: 1;
 }
