@@ -22,44 +22,19 @@ export default defineConfig({
                 items:
                 [
                     {
-                        text: 'zMr',
-                        items:
-                        [
-                            { text: '博客', link: 'https://minecraftdream12345.github.io/' },
-                            { text: 'Email', link: 'mailto:zhoumouren2010@outlook.com' }
-                        ]
+                        text: 'zMr', link: 'https://minecraftdream12345.github.io/'
                     },
                     {
-                        text: 'wsq127',
-                        items:
-                        [
-                            { text: '主页', link: 'https://wsq127.top/' },
-                            { text: 'Email', link: 'mailto:admin@wsq127.top' }
-                        ]
+                        text: 'wsq127', link: 'https://wsq127.top/'
                     },
                     {
-                        text: 'jdt1010',
-                        items:
-                        [
-                            { text: '洛谷', link: 'https://www.luogu.com.cn/user/736652' },
-                            { text: 'Email', link: 'mailto:jdt1010@126.com' }
-                        ]
+                        text: 'jdt1010', link: 'https://www.luogu.com.cn/user/736652'
                     },
                     {
-                        text: 'sxr',
-                        items:
-                        [
-                            { text: '主页', link: 'https://jiuci.top/' },
-                            { text: 'Email', link: 'mailto:13625126063@163.com' }
-                        ]
+                        text: 'sxr', link: 'https://jiuci.top/'
                     },
                     {
-                        text: 'Xwty',
-                        items:
-                        [
-                            { text: '洛谷', link: 'https://www.luogu.com.cn/user/927883' },
-                            { text: 'Email', link: 'mailto:274678666@qq.com' }
-                        ]
+                        text: 'Xwty', link: 'https://www.luogu.com.cn/user/927883'
                     },
                 ]
             }
@@ -71,6 +46,7 @@ export default defineConfig({
             },
             {
                 text: '编年史',
+                link: '/histories',
                 items:
                 [
                     { text: '始皇 · zMr', link: '/histories1' },
