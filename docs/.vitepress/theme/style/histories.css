@@ -1,7 +1,8 @@
-.card {
+.card
+{
   position: relative;
-  width: 600px; /* 将卡片调整为稍大一点 */
-  height: 250px; /* 将卡片调整为稍大一点 */
+  width: 600px;
+  height: 250px;
   overflow: hidden;
   border-radius: 15px;
   box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.2);
@@ -10,39 +11,44 @@
   background-position: center;
 }
 
-.card:hover {
+.card:hover
+{
   box-shadow: 5px 18px 16px rgba(0, 0, 0, 0.2);
   transform: translateY(-10px);
 }
 
-.card img {
-  width: 60px; /* 头像宽度 */
-  height: 60px; /* 头像高度 */
-  border-radius: 50%; /* 头像圆角 */
+.card img
+{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
   position: absolute;
   top: 20px;
   left: 20px;
   z-index: 1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 头像阴影 */
-  transition: transform 0.5s ease; /* 添加过渡效果 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease;
 }
 
-.card:hover img {
-  transform: rotate(360deg); /* 在悬停时旋转 */
+.card:hover img
+{
+  transform: rotate(360deg);
 }
 
-.card .title {
+.card .title
+{
   position: absolute;
   top: 35px;
   left: 100px;
   font-size: 20px;
   font-weight: bold;
-  color: #fff; /* 将字体颜色变回去 */
+  color: #fff;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
-.card .overlay {
+.card .overlay
+{
   position: absolute;
   top: 0;
   left: 0;
@@ -53,12 +59,14 @@
   transition: opacity 0.3s ease;
 }
 
-.card:hover .overlay {
+.card:hover .overlay
+{
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.card .overlay-text {
+.card .overlay-text
+{
   position: absolute;
   top: 50%;
   left: 50%;
