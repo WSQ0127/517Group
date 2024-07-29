@@ -1,4 +1,4 @@
-.card
+.history_card
 {
   position: relative;
   width: 600px;
@@ -11,13 +11,13 @@
   background-position: center;
 }
 
-.card:hover
+.history_card:hover
 {
   box-shadow: 5px 18px 16px rgba(0, 0, 0, 0.2);
   transform: translateY(-10px);
 }
 
-.card img
+.history_card img
 {
   width: 60px;
   height: 60px;
@@ -30,12 +30,12 @@
   transition: transform 0.5s ease;
 }
 
-.card:hover img
+.history_card:hover img
 {
   transform: rotate(360deg);
 }
 
-.card .title
+.history_card .title
 {
   position: absolute;
   top: 35px;
@@ -47,7 +47,7 @@
   z-index: 1;
 }
 
-.card .overlay
+.history_card .overlay
 {
   position: absolute;
   top: 0;
@@ -59,13 +59,13 @@
   transition: opacity 0.3s ease;
 }
 
-.card:hover .overlay
+.history_card:hover .overlay
 {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.card .overlay-text
+.history_card .overlay-text
 {
   position: absolute;
   top: 50%;
